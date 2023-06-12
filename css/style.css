@@ -1,3 +1,12 @@
+
+*{
+  /*outline: 1px dotted blue; the outline here is to help see each elements space */
+  box-sizing: border-box;
+  
+}
+
+
+
 img.background {
   position: fixed;
   background-repeat: no-repeat;
@@ -10,8 +19,26 @@ img.background {
   filter: blur(3px);
 }
 
+div.box{
+  margin: 100px;
+  border: 1px solid red;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+}
+
 h1{
   font-size: 100px;
   color: darkred;
   
+}
+
+img.picture {
+  display: block;
+  margin: 0 auto;
+  /*the above three lines make the images with class picture centred */
+  margin-left: -50px;
+  width: 500px;
+  height: 500px;
+ 
 }
