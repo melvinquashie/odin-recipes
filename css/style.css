@@ -21,24 +21,27 @@ img.background {
 
 div.box{
   margin: 100px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   background-color: white;
-  text-align: center;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1{
   font-size: 100px;
   color: darkred;
+  text-align: center;
   
 }
 
 img.picture {
-  display: block;
+  
   margin: 0 auto;
   /*the above three lines make the images with class picture centred */
-  margin-left: -50px;
+  /*margin-left: -20px;*/
   width: 500px;
   height: 500px;
- 
+  flex: auto;
 }
+
